@@ -17,6 +17,10 @@
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
     // Insert code here to initialize your application
+    NSURL *url = [NSURL URLWithString:@"https://www.messenger.com/login"];
+    NSURLRequest *urlRequest = [NSURLRequest requestWithURL:url];
+    [[[self webView] mainFrame] loadRequest:urlRequest];
+    //[self.window setContentView:self.webView];
 }
 
 - (void)applicationWillTerminate:(NSNotification *)aNotification {
