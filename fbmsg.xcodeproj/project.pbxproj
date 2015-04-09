@@ -12,6 +12,8 @@
 		5F8D2F7D1AD661DD00CF8F49 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F8D2F7C1AD661DD00CF8F49 /* Images.xcassets */; };
 		5F8D2F801AD661DD00CF8F49 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5F8D2F7E1AD661DD00CF8F49 /* MainMenu.xib */; };
 		5F8D2F8C1AD661DD00CF8F49 /* fbmsgTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F8D2F8B1AD661DD00CF8F49 /* fbmsgTests.m */; };
+		5F8D2F961AD662CB00CF8F49 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F8D2F951AD662CB00CF8F49 /* WebKit.framework */; };
+		5F8D2F981AD662D600CF8F49 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F8D2F971AD662D600CF8F49 /* Cocoa.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,7 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		5F8D2F721AD661DD00CF8F49 /* fbmsg.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fbmsg.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F8D2F721AD661DD00CF8F49 /* FBMSG.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FBMSG.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F8D2F761AD661DD00CF8F49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5F8D2F771AD661DD00CF8F49 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5F8D2F781AD661DD00CF8F49 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -35,6 +37,8 @@
 		5F8D2F851AD661DD00CF8F49 /* fbmsgTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fbmsgTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F8D2F8A1AD661DD00CF8F49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5F8D2F8B1AD661DD00CF8F49 /* fbmsgTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = fbmsgTests.m; sourceTree = "<group>"; };
+		5F8D2F951AD662CB00CF8F49 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		5F8D2F971AD662D600CF8F49 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +46,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F8D2F981AD662D600CF8F49 /* Cocoa.framework in Frameworks */,
+				5F8D2F961AD662CB00CF8F49 /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,6 +64,8 @@
 		5F8D2F691AD661DD00CF8F49 = {
 			isa = PBXGroup;
 			children = (
+				5F8D2F971AD662D600CF8F49 /* Cocoa.framework */,
+				5F8D2F951AD662CB00CF8F49 /* WebKit.framework */,
 				5F8D2F741AD661DD00CF8F49 /* fbmsg */,
 				5F8D2F881AD661DD00CF8F49 /* fbmsgTests */,
 				5F8D2F731AD661DD00CF8F49 /* Products */,
@@ -67,7 +75,7 @@
 		5F8D2F731AD661DD00CF8F49 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5F8D2F721AD661DD00CF8F49 /* fbmsg.app */,
+				5F8D2F721AD661DD00CF8F49 /* FBMSG.app */,
 				5F8D2F851AD661DD00CF8F49 /* fbmsgTests.xctest */,
 			);
 			name = Products;
@@ -114,9 +122,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5F8D2F711AD661DD00CF8F49 /* fbmsg */ = {
+		5F8D2F711AD661DD00CF8F49 /* FBMSG */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5F8D2F8F1AD661DD00CF8F49 /* Build configuration list for PBXNativeTarget "fbmsg" */;
+			buildConfigurationList = 5F8D2F8F1AD661DD00CF8F49 /* Build configuration list for PBXNativeTarget "FBMSG" */;
 			buildPhases = (
 				5F8D2F6E1AD661DD00CF8F49 /* Sources */,
 				5F8D2F6F1AD661DD00CF8F49 /* Frameworks */,
@@ -126,9 +134,9 @@
 			);
 			dependencies = (
 			);
-			name = fbmsg;
+			name = FBMSG;
 			productName = fbmsg;
-			productReference = 5F8D2F721AD661DD00CF8F49 /* fbmsg.app */;
+			productReference = 5F8D2F721AD661DD00CF8F49 /* FBMSG.app */;
 			productType = "com.apple.product-type.application";
 		};
 		5F8D2F841AD661DD00CF8F49 /* fbmsgTests */ = {
@@ -180,7 +188,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5F8D2F711AD661DD00CF8F49 /* fbmsg */,
+				5F8D2F711AD661DD00CF8F49 /* FBMSG */,
 				5F8D2F841AD661DD00CF8F49 /* fbmsgTests */,
 			);
 		};
@@ -228,7 +236,7 @@
 /* Begin PBXTargetDependency section */
 		5F8D2F871AD661DD00CF8F49 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 5F8D2F711AD661DD00CF8F49 /* fbmsg */;
+			target = 5F8D2F711AD661DD00CF8F49 /* FBMSG */;
 			targetProxy = 5F8D2F861AD661DD00CF8F49 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -391,13 +399,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5F8D2F8F1AD661DD00CF8F49 /* Build configuration list for PBXNativeTarget "fbmsg" */ = {
+		5F8D2F8F1AD661DD00CF8F49 /* Build configuration list for PBXNativeTarget "FBMSG" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5F8D2F901AD661DD00CF8F49 /* Debug */,
 				5F8D2F911AD661DD00CF8F49 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5F8D2F921AD661DD00CF8F49 /* Build configuration list for PBXNativeTarget "fbmsgTests" */ = {
 			isa = XCConfigurationList;
@@ -406,6 +415,7 @@
 				5F8D2F941AD661DD00CF8F49 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
